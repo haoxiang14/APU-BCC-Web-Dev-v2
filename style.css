@@ -1,0 +1,266 @@
+body{
+    background-color: #F2F5FA;
+}
+
+.body-structure{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.logo-heading{
+    display: flex; 
+    align-items: center; 
+    gap: 0rem;
+
+}
+
+.heading-name{
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #20234E;
+
+}
+
+.navbar-link li a { 
+    list-style-type: none;
+    text-decoration: none; 
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #20234E;
+}
+
+.navbar-link li a:hover { 
+    color: #BEC8D0;
+}
+
+.navbar-link{ 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center; 
+
+}
+
+.heading-description{
+    text-align: left;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    color: #BEC8D0;
+    width: 60%;
+}
+
+.heading-description-dark{
+    color:#20234E;
+}
+
+
+.block-bcc-card{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bcc-card{
+    width: 500px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 40px ;
+    margin-bottom: 30px;
+}
+
+.bcc-card2{
+    width: 500px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 40px ;
+    margin-bottom: 30px;
+}
+
+
+
+.bcc-card-item{
+    padding-top: 25px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.bcc-card-heading{
+    font-family: "Encode Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #BEC8D0;
+}
+
+.bcc-card-paragraph{
+    font-family: "Encode Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #16445F; 
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bcc-card-button1{
+    font-family: "Encode Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #535CEA;
+    border-color: transparent;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.bcc-card-button2{
+    font-family: "Encode Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #535CEA;
+    background-color: #F2F5FA;
+    border-color: transparent;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.bcc-card2-button1{
+    margin-top: 25px;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #535CEA;
+    border-color: transparent;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.bcc-card2-button2{
+    margin-top: 25px;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #535CEA;
+    background-color: #F2F5FA;
+    border-color: transparent;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+
+.club-description{
+    font-family: "Encode Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.description-numbers{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: #16445F;
+    margin: 80px 160px 0px 50px;
+
+}
+
+.description-info{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #BEC8D0;
+    margin: 0px 0px 100px -130px;
+}
+
+hr{
+    width: 82%;
+    margin-left: 75px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+.footer-block{
+    display:block;
+    margin: 0px 120px 50px 50px;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+
+}
+
+.footer-heading{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #16445F;
+}
+
+.footer-components{
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+.components{
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+
+.description1{
+    background-color: #FFFFFF;
+    font-family: "Encode Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+.custom-slideshow{
+    width: 1015px;
+    height: 90%;
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+.carousel-image{
+    border-radius: 60px;
+}
+
+
+#components-support-us{
+    margin-left: 30px;
+}
